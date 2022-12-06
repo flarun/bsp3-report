@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Scientific}
+\author{runceanuflavius}
+\date{November 2022}
+
+\begin{document}
+
+\maketitle
+\section{Scientific Deliverable 1}
+\label{sec-production}
+\subsection{Requirements ($\pm$ 15\% of section's words)}
+% Describe here all the properties that characterize the deliverables you produced. It should describe, for each main deliverable, what are the expected functional and non functional properties of the deliverables, who are the actors exploiting the deliverables. It is expected that you have at least one scientific deliverable (e.g. ``Scientific presentation of the Python programming language'', ``State of the art on quality models for human computer interaction'', \ldots.) and one technical deliverable (e.g. ``BSProSoft - A python/django web-site for IT job offers retrieval and analysis'', \ldots). 
+\subsection{Design ($\pm$ 30\% of section's words)}
+% Provide the necessary and most useful explanations on how those deliverables have been produced.
+\subsection{Production ($\pm$ 40\% of section's words)}
+% Provide descriptions of the deliverables concrete production. It must present part of the deliverable (e.g. source code extracts, scientific work extracts, \ldots) to illustrate and explain its actual production.
+\subsubsection{What are the most useful criteria for designing a Web Development Library (WDl)?}
+This scientific deliverable aims to provide a reference of the most useful criteria for designing a Web Development Library (WDL), and it accomplishes it by justifying the usefulness coefficient (USF) of each quality criteria presented in the following paragraphs.  
+
+\paragraph*{Functional Suitability}
+Functional stability is the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.\\
+Functional suitability is relevant in the context of WDL because of the way in which WDLs are designed to address generalized development principles.
+Functional suitability is especially useful because the specified conditions of a functionally suitable library are defined by the end goal of the utilizing software. The end software could be of any form and any kind. Therefore, the developers must follow very precise and abstract guidelines for defining the functions of the library in order to satisfy the needs of higher-order design in the process of Web Development, through the libraries themselves.
+However, the degree of specificity of functionality can vary as the scope of the goals of the product vary, even if in minimal part.
+These are the reasons the Quality Criteria of functional suitability has an evaluation of: USF 9.5.
+
+\paragraph*{Performance Efficiency}
+Performance Efficiency is the performance relative to the amount of resources used under stated conditions.\\
+Performance Efficiency is relevant in the context of WDL because of the classic architecture of a Web App, involving a client and a server.
+Performance Efficiency is especially useful when the library is designed for data-intensive applications. By its very definition, a library is a set of behaviors and data structures that can be used inside of a third-part implementation. This implies that in order to obtain a higher degree of performance efficiency, the library itself must have it, and it does so by providing the correct behavior in the specified amount of time, and with the specified amount of resources. It is useful to develop with this quality criteria in mind because of the vast applications of such technologies in the real world which require a lot of data. However, in most cases, on the Web, it is acceptable to not completely adhere to the principle of efficiency because Performance Efficiency is inversely proportional to complexity of codebase. Therefore, it decreases the usability and maintainability from the developer's perspective.
+These are the reasons the Quality Criteria of functional suitability has an evaluation of: USF 6.5.
+
+\paragraph*{Compatibility}
+Compatibility is the degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment.\\
+Compatibility is relevant to the context of WDL design, because of the very nature of the infrastructures on which the Web relies: APIs are of paramount importance for communicating with different products, systems, or components.
+Compatibility is especially useful to WDL design because compatibility features increase the usability of the code base, and, if the compatible technologies are also well- mainained, maintainability of itself.
+In the dynamic field of Web Development it is of paramount importance.
+These are the reasons the Quality Criteria of functional suitability has an evaluation of: USF= 9.75.
+
+\paragraph*{Usability}
+Usability is degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use.\\
+Usability is relevant to WDL design since it allows intuitive and clear practices for development using the WDL.
+It is absolutely important in order to provide the developers with: Appropriateness; Recognizability; Learnability; Operability; User-Error Protection (which increases Security) and Accessibility (which increases Usability).
+Usability is the most useful Quality Criteria, therefore it holds an evaluation of: USF= 10.0.
+
+
+\paragraph*{Reliability}  
+Reliability is the degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.\\
+Reliability is of fundamental usefulness in every possible software development context, expecially given the classic extended architecture of Web applications, which require multiple components to work together, and therefore hold and extremely high standard for the reliability of each component. Since the components themselves depend on the WDL, the WDL must have a strong degree of reliability.
+This is the reason the Quality Criteria of functional suitability is given an average evaluation of: USF= 10.0.
+
+\paragraph*{Maintainability}
+Maintainability is the degree of effectiveness and efficiency with which a product or system can be modified by the intended maintainers.\\
+Maintainability is relevant in the context of WDL because libraries are inherently subject to time-bound improvement and evolution.
+Maintainability is especially useful for the design of a WDL since there is a vast plethora of hardware/software platforms on which any give Web project can be developed, and it is the responsibility of the developers to guarantee correct functioning and complete functionality to each one of those afro mentioned platforms. Since the difference in many of these target platforms is the temporal release of the host technologies used (I.e rendering and JS engines), the development team must absolutely ensure a maintainable product that is able to quickly evolve and adapt to all of the options present as target technologies.
+Maintainability is definitely a useful quality criteria to have, but there is one case in which it does not represent a major requirement for the development of a proper library: The lifecycle of the product is predetermined to be relatively short. In which case, there may be no need to focus on maintainability because the developers would rather focus on the functional suitability of the specific use-case coupled with the specific time-frame.
+These are the reasons the Quality Criteria of maintainability has an evaluation of: USF 8.5.
+
+\paragraph*{Portability}
+Portability is the degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another.\\
+Portability is relevant in the context of WDL because in the field of WD there can be present multiple inter-crossing combinations of technological solutions for a given problem.
+Portability is especially useful for the design of a WDL since there can be multiple hardware/software platform options in the requirements of the given project, and the ability to utilize the library in the native environment of one's choice is advantageous for testing purposes.
+Ex. react-native react-dom react.
+However, portability is not an essential feature condusive to the preliminary segment of the lifecycle of the product, and often times it can be completely disregarded as there are multiple potential external solutions to bring the WDL development on one's hardware/software platform (I.e. Emulation, Virtualization). Therefore it cannot be regarded as of the maximum usefulness. This are the reasons the Quality Criteria of portability has an evaluation of: USF = 5.0.
+
+
+\paragraph*{Rankings}
+\begin{verbatim}
+Functional Suitability  9.5
+Performance Efficiency  6.5
+Compatibility           9.75
+Usability               10.0
+Reliability             10.0
+Security                5.0
+Maintainability         8.5
+Portability             5.0
+\end{verbatim}
+
+\paragraph*{Conclusion}
+% Perhaps the most surprising evaluation is that of security
+
+\subsection{Assessment ($\pm$ 15\% of section's words)}
+% Provide any objective elements to assess that your deliverables do or do not satisfy the requirements described above. 
+\end{document}
