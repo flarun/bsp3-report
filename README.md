@@ -1,3 +1,2 @@
-# bsp3-report
-LaTeX repository of BSP Report
+### LaTeX repository of BSP Report
 Cloned from [BiCS Template](https://github.com/nicolasguelfi/lu.uni.course.bics.global.git)
