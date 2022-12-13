@@ -233,21 +233,21 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{BSPro - A First Bachelor Semester Project in BiCS-land\\
+\title{React Web Development\\
 {\small \today~-~\currenttime}}
 
  
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\IEEEauthorblockN{Motivated Student}
+\author{\IEEEauthorblockN{Flavius Constantin Runceanu}
 \IEEEauthorblockA{University of Luxembourg\\
-Email: motivated.student.001@student.uni.lu}
+Email: flavius.runceanu.001@student.uni.lu}
 \\
 {\bf This report has been produced under the supervision of:}\\
-\IEEEauthorblockN{Motivated Tutor}
+\IEEEauthorblockN{Nicolas Guelfi}
 \IEEEauthorblockA{University of Luxembourg\\
-Email: motivated.tutor@uni.lu}%
+Email: nicolas.guelfi@uni.lu}%
 }
 
 % conference papers do not typically use \thanks and this command
@@ -292,12 +292,10 @@ Email: motivated.tutor@uni.lu}%
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-This document is a template for the scientific and technical (S\&T for short) report that is to be delivered by any BiCS student at the end of each Bachelor Semester Project (BSP). The Latex source files are available at:\\
-\href{https://github.com/nicolasguelfi/lu.uni.course.bics.global}{{\underline{\textbf{https://github.com/nicolasguelfi/lu.uni.course.bics.global}}}}\\
-  
-This template is to be used using the Latex document preparation system or using any document preparation system. The whole document should be in 8000 words ($\pm$ 20\%)~\footnote{i.e. approximately 16 pages double columns excluding the Plagiarism Statement} for S2 to S6 students and 6000 ($\pm$ 20\%) for S1 students (excluding the annexes) and the proportions must be preserved. The other documents to be delivered (summaries, \ldots) should have their format adapted from this template.\\
+This document is the scientific and technical report that is to be delivered by the student Flavius Constantin Runceanu at the end of the Bachelor Semester Project 3 (BSP3). 
+% This template is to be used using the Latex document preparation system or using any document preparation system. The whole document should be in 8000 words ($\pm$ 20\%)~\footnote{i.e. approximately 16 pages double columns excluding the Plagiarism Statement} for S2 to S6 students and 6000 ($\pm$ 20\%) for S1 students (excluding the annexes) and the proportions must be preserved. The other documents to be delivered (summaries, \ldots) should have their format adapted from this template.\\
 
-A tutor (or any person having contributed to the BSP work) is not a co-author per se for a student's work. It is possible to exploit a BSP report to produce a scientific and technical publication. In this case, the authors list has to be discussed and agreed with the concerned parties.
+% A tutor (or any person having contributed to the BSP work) is not a co-author per se for a student's work. It is possible to exploit a BSP report to produce a scientific and technical publication. In this case, the authors list has to be discussed and agreed with the concerned parties.
 
 \end{abstract}
 
@@ -314,7 +312,6 @@ A tutor (or any person having contributed to the BSP work) is not a co-author pe
 \IEEEpeerreviewmaketitle
 
 \section{Plagiarism statement}
-{\it This 350 words section without this first paragraph must be included in the submitted report and placed after the conclusion. This section is not counting in the total words quantity.}\\
 
 I declare that I am aware of the following facts:
 \begin{itemize}
@@ -338,55 +335,61 @@ Auto- or self-plagiarism, that is the reproduction of (portions of a) text previ
 
 \section{Introduction ($\pm$ 5\% of total words)}
 % no \IEEEPARstart
-This paper presents the bachelor semester project made by Motivated Student together with Motivated Tutor as his motivated tutor.
+This paper presents the bachelor semester project made by Flavius Constantin Runceanu together with Nicolas Guelfi as his motivated tutor.
 It presents the scientific and technical dimensions of the work done. All the words written here have been newly created by the authors and if some sequence of words or any graphic information created by others are included then it is explicitly indicated the original reference to the work reused. 
 
-This report separates explicitly the scientific work from the technical one. In deed each BSP must cover those two dimensions with a constrained balance  (cf. \cite{bics-bsp-reference-document}). Thus it is up to the Motivated Tutor and Motivated Student to ensure that the deliverables belonging to each dimension are clearly stated. As an example, a project whose title would be ``PLAYTOUCH - A multi-user game for multi-touch devices'' could define the following deliverables:
+% This report separates explicitly the scientific work from the technical one. In deed each BSP must cover those two dimensions with a constrained balance  (cf. \cite{bics-bsp-reference-document}). Thus it is up to the Motivated Tutor and Motivated Student to ensure that the deliverables belonging to each dimension are clearly stated. 
+
+The Bachelor Semester Project, titled ``React Web Development'', defines the following deliverables:
 \begin{itemize}
-  \item Possible scientific~\cite{armstrong2017guidelinesforscience} deliverables:
+  \item Scientific deliverables:
 		\begin{itemize}
-			\item What are concurrency models and how are they implemented?
-			\item How is measured ergonomics in human-computer interaction?
-			\item How to model the concurrency of a multi-touch devices?
-			\item Can PLAYTOUCH enter in a blocking state?
-			\item How to model the design of PLAYTOUCH?
+			\item What are the most useful criteria for designing a Web Development Library (WDL)?
 		\end{itemize}
-  \item Possible Technical deliverables:
+  \item Technical deliverables:
 		\begin{itemize}
-			\item PLAYTOUCH Implementation
-			\item PLAYTOUCH Tests implementation
-			\item Hardware end system configuration for PLAYTOUCH
+			\item Element nesting capabilities in react-grid-layout Library
 		\end{itemize} 
  
 \end{itemize}
-The length of the report should be from 8000 words ($\pm$ 20\%) for S2 to S6 students and 6000 ($\pm$ 20\%) for S1 students excluding images and annexes. The sections presenting the technical and scientific deliverables represent $\pm$ 80\% of total words of the report.
+% The length of the report should be from 8000 words ($\pm$ 20\%) for S2 to S6 students and 6000 ($\pm$ 20\%) for S1 students excluding images and annexes. The sections presenting the technical and scientific deliverables represent $\pm$ 80\% of total words of the report.
 
 \section{Project description ($\pm$ 10\% of total words) }
 \subsection{Domains}
 \subsubsection{Scientific }
-Provide a short description of the scientific domain(s) in which the project is being made.
+The scientific domains in which the domain is being made are:
+\begin{itemize}
+  \item \bf{User Interfaces}:
+  \item \bf{Computer Architecture}:
+ 
+\end{itemize}
+
 \subsubsection{Technical}
-Provide a short description of the technical domain(s) in which the project is being made.
+The technical domains in which the domain is being made are:
+\begin{itemize}
+  \item \bf{Front-End Web Development}:
+  \item \bf{Back-End Web Development}:
+\end{itemize}
 
 \subsection{Targeted Deliverables}
 \label{sec-deliverables}
 \subsubsection{Scientific deliverables}
-Provide a synthetic and abstract description of the scientific deliverables that have been produced. 
-Each BSP must contain some work done according to the principles of the scientific method. It basically means that you should define at least one question related to the knowledge domain of your BSP and follow part of the scientific method process to answer this question. The description of the work done to answer this question is a scientific deliverable.
+% Provide a synthetic and abstract description of the scientific deliverables that have been produced. 
+% Each BSP must contain some work done according to the principles of the scientific method. It basically means that you should define at least one question related to the knowledge domain of your BSP and follow part of the scientific method process to answer this question. The description of the work done to answer this question is a scientific deliverable.
 
-Other examples of question could be:
-\begin{itemize}
-	\item Is Python an adequate language for concurrent programs?
-	\item How can we measure the ergonomics of a graphical user interface?
-	\item How can we ensure that a program will not fail?
-\end{itemize}
+% Other examples of question could be:
+% \begin{itemize}
+%	\item Is Python an adequate language for concurrent programs?
+%	\item How can we measure the ergonomics of a graphical user interface?
+%	\item How can we ensure that a program will not fail?
+% \end{itemize}
 
-An answer to such question should be the result of applying partly or totally the scientific method according to its standard definition which can be found in the literature.
+% An answer to such question should be the result of applying partly or totally the scientific method according to its standard definition which can be found in the literature.
 
-As you can see in this template, the scientific deliverable is entirely separated from the technical deliverable. It the default case it addresses a question closely related to the technical deliverable.  
+% As you can see in this template, the scientific deliverable is entirely separated from the technical deliverable. It the default case it addresses a question closely related to the technical deliverable.  
 
 \subsubsection{Technical deliverables}
-Provide a synthetic and abstract description of the technical deliverables that were targeted to be produced. A technical deliverable in this report is the description of a product  build by the student using software or hardware technologies.
+% Provide a synthetic and abstract description of the technical deliverables that were targeted to be produced. A technical deliverable in this report is the description of a product  build by the student using software or hardware technologies.
 
 
 % \subsection{Constraints}
@@ -396,22 +399,22 @@ Provide a synthetic and abstract description of the technical deliverables that 
 % As a consequence the work done to satisfy the constraints cannot be presented as a deliverable of the BSP.
 
 \section{Pre-requisites ($[5\%..10\%]$ of total words)} 
-Describe in these sections the main scientific and technical knowledge that is required to be known by you before starting the project.
-Do not describe in details this knowledge but only abstractly. All the content of this section shall not be used, even partially, in the deliverable sections.
-It is important not to include in this section all the knowledge you have been obliged to acquire in order to produce the deliverable. It should only state the knowledge the student possessed before starting the project and that was mandatory to possess to be capable to produce the deliverables. It explicitly defines  the technical and scientific pre-condition for the project. It is also useful to avoid project failures due to over or under complex subjects.
+% Describe in these sections the main scientific and technical knowledge that is required to be known by you before starting the project.
+% Do not describe in details this knowledge but only abstractly. All the content of this section shall not be used, even partially, in the deliverable sections.
+% It is important not to include in this section all the knowledge you have been obliged to acquire in order to produce the deliverable. It should only state the knowledge the student possessed before starting the project and that was mandatory to possess to be capable to produce the deliverables. It explicitly defines  the technical and scientific pre-condition for the project. It is also useful to avoid project failures due to over or under complex subjects.
 
 
 \subsection{Scientific pre-requisites}
 \subsection{Technical pre-requisites}
 
 
-\section{ A Scientific Deliverable 1}
-For each scientific deliverable targeted in section~\ref{sec-deliverables} provide a full section with all the subsections described below.
+\section{A Scientific Deliverable 1}
+% For each scientific deliverable targeted in section~\ref{sec-deliverables} provide a full section with all the subsections described below.
 \label{sec-production}
 \subsection{Requirements ($\pm$ 15\% of section's words)}
-Describe here all the properties that characterize the deliverables you produced. It should describe, for each main deliverable, what are the expected functional and non functional properties of the deliverables, who are the actors exploiting the deliverables. It is expected that you have at least one scientific deliverable (e.g. ``Scientific presentation of the Python programming language'', ``State of the art on quality models for human computer interaction'', \ldots.) and one technical deliverable (e.g. ``BSProSoft - A python/django web-site for IT job offers retrieval and analysis'', \ldots). 
+% Describe here all the properties that characterize the deliverables you produced. It should describe, for each main deliverable, what are the expected functional and non functional properties of the deliverables, who are the actors exploiting the deliverables. It is expected that you have at least one scientific deliverable (e.g. ``Scientific presentation of the Python programming language'', ``State of the art on quality models for human computer interaction'', \ldots.) and one technical deliverable (e.g. ``BSProSoft - A python/django web-site for IT job offers retrieval and analysis'', \ldots). 
 \subsection{Design ($\pm$ 30\% of section's words)}
-Provide the necessary and most useful explanations on how those deliverables have been produced.
+% Provide the necessary and most useful explanations on how those deliverables have been produced.
 \subsection{Production ($\pm$ 40\% of section's words)}
 % Provide descriptions of the deliverables concrete production. It must present part of the deliverable (e.g. source code extracts, scientific work extracts, \ldots) to illustrate and explain its actual production.
 
@@ -493,11 +496,11 @@ Portability             5.0
 % Perhaps the most surprising evaluation is that of security
 
 \subsection{Assessment ($\pm$ 15\% of section's words)}
-Provide any objective elements to assess that your deliverables do or do not satisfy the requirements described above. 
+% Provide any objective elements to assess that your deliverables do or do not satisfy the requirements described above. 
 
 \section{ A Technical Deliverable 1}
-For each technical deliverable targeted in section~\ref{sec-deliverables} provide a full section with all the subsections described below.
-The cumulative volume of all deliverable sections represents 75\% of the paper's volume in words. Volumes below are indicated relative the the section.
+% For each technical deliverable targeted in section~\ref{sec-deliverables} provide a full section with all the subsections described below.
+% The cumulative volume of all deliverable sections represents 75\% of the paper's volume in words. Volumes below are indicated relative the the section.
 \label{sec-production}
 \subsection{Requirements ($\pm$ 15\% of section's words)}
 cf. section~\ref{sec-production} applied to the technical deliverable
@@ -514,7 +517,7 @@ The authors would like to thank the BiCS management and education team for the a
 
 
 \section{Conclusion}
-The conclusion goes here.
+% The conclusion goes here.
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -651,9 +654,12 @@ J~Scott Armstrong and Kesten~C Green.
 
 
 \end{thebibliography}
+
+\iffalse
+
 \newpage 
 \section{Appendix}
-All images and additional material go there.
+% All images and additional material go there.
 
 \subsection{Source Code}
 \noindent The following environment shows the correct and mandatory way to insert your code.
@@ -689,6 +695,8 @@ def incmatrix(genl1,genl2):
     return M
 \end{lstlisting}
 % that's all folks
+
+\fi
 
 \end{document}
 
